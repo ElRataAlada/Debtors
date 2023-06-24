@@ -1,0 +1,44 @@
+@import '../../../scss/var.scss';
+
+.wrapper {
+    width: 100%;
+    height: $footer-top-h;
+    
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    z-index: 3;
+    
+    top: 0;
+    left: 0;
+    padding: 9px 20px;
+    
+    background-color: var(--color-main);
+}
+
+.open{
+    width: 50%;
+    opacity: 1;
+    margin-right: auto;
+}
+
+.hidden{
+    width: 0;
+    opacity: 0;
+    margin-right: auto;
+}
+
+.button {
+    position: relative;
+
+    background-color: var(--btn-color);
+    border-radius: 50%;
+    padding: 8px;
+
+    img {
+        max-height: 100%;
+        aspect-ratio: 1;
+    }
+}

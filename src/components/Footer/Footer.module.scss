@@ -1,0 +1,20 @@
+@import '../../scss/var.scss';
+
+.footer {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100vw;
+
+    overflow: hidden;
+
+    padding: 0 20px;
+    padding-top: calc($footer-top-h + 20px);
+
+    height: 50vh;
+    height: 50dvh;
+
+    border-radius: var(--footer-border-radius) var(--footer-border-radius) 0 0;
+
+    background-color: var(--color-main);
+}

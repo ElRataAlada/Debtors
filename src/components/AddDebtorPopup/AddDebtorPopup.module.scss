@@ -1,0 +1,21 @@
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-width: min(70vw, 700px);
+
+    gap: 50px;
+}
+
+.title{
+    text-align: center;
+}
+
+.inputs{
+    display: flex;
+
+    flex-direction: column;
+    gap: 30px;
+}

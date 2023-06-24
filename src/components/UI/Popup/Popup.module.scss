@@ -1,0 +1,35 @@
+.wrapper {
+    background-color: rgba($color: #000000, $alpha: 0.7);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 100vh;
+    height: 100dvh;
+    height: var(--vh);
+
+    width: 100vw;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    z-index: 10;
+
+    transition: height .2s .1s ease;
+}
+
+.popup {
+    z-index: 11;
+    opacity: 1;
+    padding: 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    border-radius: var(--main-border-radius);
+    background-color: var(--color-main);
+}

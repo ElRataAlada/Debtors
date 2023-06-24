@@ -1,0 +1,28 @@
+.wrapper {
+    width: 100%;
+    padding: 0 var(--total-debt-padding);
+}
+
+.name{
+    font-size: var(--fz-big);
+    font-weight: 600;
+}
+
+.main_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.total {
+    display: flex;
+    font-weight: 700;
+    font-size: var(--fz-huge);
+}
+
+.currency {
+    color: var(--currency-color);
+    margin-right: 0.5ch;
+}
+
+.money {}
